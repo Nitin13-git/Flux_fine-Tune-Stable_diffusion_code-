@@ -39,3 +39,20 @@ for idx, image_data in enumerate(image_prompts):
 
 print("All prompts have been sent.")
 
+
+# in above we are reaing the prompt(text description of a image), base64 encoded url stored into JSON where you can read automaticcly and pass one be one
+[
+    {
+        "prompt": "an island near the sea, with seagulls, moon shining over the sea, lighthouse, boats in the background, fish flying over the sea",
+        "image_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg=="
+    },
+    {
+        "prompt": "a beautiful sunset over the mountains, with birds flying and river flowing between the mountains",
+        "image_url": "data:image/png;base64,YOUR_BASE64_STRING_2_HERE"
+    },
+    {
+        "prompt": "forest landscape with a clear blue lake, trees, and mountain range in the background",
+        "image_url": "data:image/png;base64,YOUR_BASE64_STRING_3_HERE"
+    }
+]
+

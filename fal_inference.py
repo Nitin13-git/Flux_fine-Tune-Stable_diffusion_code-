@@ -6,7 +6,7 @@ handler = fal_client.submit(
     "fal-ai/lora",
     arguments={
         "model_name": "stabilityai/stable-diffusion-xl-base-1.0",
-        # Replace 'correctly--' with the name of your fine-tuned model in place model name.
+        # Replace the name of your fine-tuned model in place model name.
         # To update the model name:
         # 1. Go to Fal.ai's official website: https://fal.ai/
         # 2. Log in using your authenticated Git credentials.
